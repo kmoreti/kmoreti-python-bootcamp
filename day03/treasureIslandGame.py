@@ -38,7 +38,7 @@ if direction == "left":
         elif door == "red":
             print("It's a room full of fire. Game Over.")
         else:
-            print("Game Over.")
+            print("You chose a door that doesn't exist. Game Over.")
     else:
         print("You get attacked by an angry trout. Game Over.")
 else:
